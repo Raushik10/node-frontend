@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Pull') {
             steps {
-                git 'https://github.com/<yourname>/node-frontend.git'
+                git 'https://github.com/Raushik10/node-frontend.git'
             }
         }
         stage('Install') {
